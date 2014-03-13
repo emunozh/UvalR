@@ -1,0 +1,7 @@
+"","name","Thicknes","Conductivity","Diffusion","H","Sd"
+"1","Vorgehängte Außenschale",0.02,NA,NA,NA,0
+"2","Belüftete Luftschicht",0.03,NA,NA,NA,0
+"3","Spanplatte V100",0.019,0.127,100,0.149606299212598,1.9
+"4","Mineralwolle",0.16,0.04,1,4,0.16
+"5","Diffusionshemmende Schicht",5e-05,NA,40000,NA,2
+"6","Spanplatte V20",0.019,0.127,50,0.149606299212598,0.95

@@ -1,0 +1,5 @@
+"","name","Thicknes","Conductivity","Diffusion","H","Sd"
+"1","External Plaster",0.01,0.87,15,0.0114942528735632,0.15
+"2","Expanded Polystyrene",0.18,0.038,30,4.73684210526316,5.4
+"3","Reinforced Concrete",0.25,1.8,80,0.138888888888889,20
+"4","Internal Stuco",0.01,0.7,6,0.0142857142857143,0.06
