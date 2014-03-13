@@ -6,3 +6,5 @@ ConducV --> Thermal conductivity value
 DiffV --> Moisture diffusion coefficient value
 
 The file may contain other columns
+
+The name of the file HAS to be "materials.csv"
