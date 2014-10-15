@@ -1,8 +1,8 @@
 UvalR
 =====
 
-This simple scrip computes the U-Value for building components given the
-characteristics of the individual layers of the component. The scrip also has a
+This simple script computes the U-Value for building components given the
+characteristics of the individual layers of the component. The script also has a
 small implementation which reads from an external file the properties of the
 individual layers given an specific name. In order to make the functions
 described on the main script 'Uval.R' you have to run in within your working
@@ -11,9 +11,9 @@ session via::
     source("./Uval.R")
 
 This means that the main script 'Uval.R' has to be in the working path of your
-environment. You can't just call the scrip using an absolute path as the scrip
+environment. You can't just call the script using an absolute path as the scrip
 will use the folder structure of the root folder. The easiest way to make sure 
-that R finds the scrip is to point R into the right directory with the 'setwd()' 
+that R finds the script is to point R into the right directory with the 'setwd()' 
 command::
 
     setwd("~/workspace/R/UvalR")
@@ -21,10 +21,10 @@ command::
 The root folder structure is as follows::
 
     + root
-    |---Data     # The scrip will look for a csv file containing materials data
+    |---Data     # The script will look for a csv file containing materials data
     |               in this directory. The csv name has to be 'materials.csv'
     |---Examples # Some examples on how to run the script.
-    |---FIGURES  # The scrip will store the plots here.
+    |---FIGURES  # The script will store the plots here.
     |---TABLES   # And the corresponding result data here.
 
 The examples:
@@ -37,7 +37,7 @@ All the examples presented below are stores in the folder './Examples/'.
    .. include:: ./Examples/ReinforcedConcrete.R
       :code:
    
-   This scrip will output the value: 0.1973745, that the U value of the
+   This script will output the value: 0.1973745, that the U value of the
    building component in [W/m2K]
    
    It will also write two figures in folder './FIGURES/'
@@ -50,7 +50,7 @@ All the examples presented below are stores in the folder './Examples/'.
    .. include:: ./Examples/LeichteAussenwand.R
       :code:
    
-   This scrip will output the value: 0.2240037, that the U value of the
+   This script will output the value: 0.2240037, that the U value of the
    building component in [W/m2K]
    
    It will also write two figures in folder './FIGURES/'
@@ -63,7 +63,7 @@ All the examples presented below are stores in the folder './Examples/'.
    .. include:: ./Examples/InnenDaemmung.R
       :code:
    
-   This scrip will output the value: 0.4719366, that the U value of the
+   This script will output the value: 0.4719366, that the U value of the
    building component in [W/m2K]
    
    It will also write two figures in folder './FIGURES/'
@@ -79,7 +79,7 @@ All the examples presented below are stores in the folder './Examples/'.
    .. include:: ./Examples/ExternalData.R
       :code:
    
-   This scrip will output the value: 0.4814479, that the U value of the
+   This script will output the value: 0.4814479, that the U value of the
    building component in [W/m2K]
    
    It will also write two figures in folder './FIGURES/'
